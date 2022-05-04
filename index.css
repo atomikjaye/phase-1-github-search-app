@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
 #github-container {
@@ -10,4 +12,80 @@
 
 ul {
   list-style: none;
+}
+
+a,
+a:link {
+  color: rgb(63, 82, 255);
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+h2 span {
+  font-weight: 200;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+a:visited {
+  color: rgb(162, 63, 255);
+
+}
+
+li {
+  flex-flow: column;
+  /* border: 1px solid; */
+  display: flex;
+  /* align-items: center; */
+  margin: 5px 5px;
+  /* justify-content: space-evenly; */
+}
+
+li a.userRepoURL {
+  display: flex;
+  /* align-items: center; */
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+
+.username {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+img.avatar {
+  float: left;
+  width: 32px;
+  padding: 2px;
+  border: 1px solid rgb(63, 82, 255);
+  ;
+  margin-right: 5px;
+}
+
+li span {
+  /* float: left; */
+  position: relative;
+  top: -13px;
+  left: 44px;
+
+}
+
+li a.user_url {
+  color: rgb(117, 117, 117);
+  /* float: left; */
+  /* margin-top: 15px; */
+  padding: 2px;
+  font-size: 6pt;
+  text-decoration: none;
+}
+
+li a.user_url:hover {
+  background-color: rgb(63, 82, 255);
+  color: white;
 }
